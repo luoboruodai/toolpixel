@@ -98,13 +98,13 @@ int main(int argc, char** argv) {
             compact += c;
         }
     }
-    const bool resource_valid = compact.find("0000B001") != std::string::npos &&
+    const bool resource_valid = compact.find("00009601") != std::string::npos &&
         compact.find("04108200") != std::string::npos;
     if (!resource_valid) {
         std::fprintf(stderr, "compiled PiPL version/flags mismatch\n%s\n", resource_text.c_str());
         return 1;
     }
-    std::printf("compiled_pipl_version=0000B001 flags=04108200\n");
+    std::printf("compiled_pipl_version=00009601 flags=04108200\n");
     void* library = dlopen(argv[1], RTLD_NOW | RTLD_LOCAL);
     if (!library) {
         std::fprintf(stderr, "dlopen failed: %s\n", dlerror());

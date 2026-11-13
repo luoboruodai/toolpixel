@@ -3,7 +3,7 @@
 ## Current version / 当前版本
 
 - Effect name and match name: **ToonPixel SmartFX**
-- Native version: **0.1.2 release 1** (`0x0000B001`)
+- Native version: **0.1.2 release 1** (`0x00009601`)
 - Windows file version: **0.1.2.1**
 - Parameter count: **98 including implicit input**
 - Language parameter index: **97**; ExtendScript property 98 is host-provided Compositing Options.

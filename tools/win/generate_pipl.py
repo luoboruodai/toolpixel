@@ -3,7 +3,7 @@ from pathlib import Path
 import struct
 import sys
 
-VERSION = 0x0000B001
+VERSION = 0x00009601
 OUT_FLAGS = 0x04108200
 OUT_FLAGS2 = 0x00001400
 
