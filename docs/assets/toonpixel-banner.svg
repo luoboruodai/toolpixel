@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 240" role="img" aria-labelledby="title description">
+  <title id="title">ToonPixel SmartFX</title>
+  <desc id="description">A five-color pixel ramp beside the ToonPixel name and its cel shading, pixel art and ASCII feature labels.</desc>
+  <defs>
+    <linearGradient id="surface" x2="1" y2="1">
+      <stop stop-color="#111925"/>
+      <stop offset="1" stop-color="#202838"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="240" rx="24" fill="url(#surface)"/>
+  <g transform="translate(42 46)">
+    <path d="M0 0h29v29H0z" fill="#17263e" stroke="#78a9dc" stroke-width="2"/>
+    <path d="M37 0h29v29H37z" fill="#e56e5c"/>
+    <path d="M74 0h29v29H74z" fill="#3c93c0"/>
+    <path d="M111 0h29v29h-29z" fill="#cbd1c4"/>
+    <path d="M148 0h29v29h-29z" fill="#fff2c8"/>
+    <path d="M0 37h29v29H0zM37 37h29v29H37zM74 37h29v29H74zM111 37h29v29h-29zM148 37h29v29h-29z" fill="none" stroke="#6d7b8b" stroke-width="2"/>
+    <path d="M0 74h29v29H0zM37 74h29v29H37zM74 74h29v29H74zM111 74h29v29h-29zM148 74h29v29h-29z" fill="none" stroke="#6d7b8b" stroke-width="2" stroke-dasharray="4 4"/>
+    <path d="M-5 112h25v25H-5zM32 112h25v25H32zM69 112h25v25H69zM106 112h25v25H106zM143 112h25v25H143z" fill="#72d5c6"/>
+  </g>
+  <text x="270" y="113" fill="#f2f5f8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="64" font-weight="700" letter-spacing="-2">ToonPixel</text>
+  <text x="274" y="153" fill="#a8bacb" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" letter-spacing="3">CEL SHADING · PIXEL ART · ASCII</text>
+  <text x="274" y="193" fill="#72d5c6" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">SmartFX 0.1.2  /  English + 中文</text>
+  <path d="M794 55h116v116H794z" fill="none" stroke="#435771" stroke-width="2"/>
+  <path d="M806 67h20v20h-20zM832 67h20v20h-20zM858 67h20v20h-20zM884 67h20v20h-20zM806 93h20v20h-20zM832 93h20v20h-20zM858 93h20v20h-20zM884 93h20v20h-20zM806 119h20v20h-20zM832 119h20v20h-20zM858 119h20v20h-20zM884 119h20v20h-20zM806 145h20v20h-20zM832 145h20v20h-20zM858 145h20v20h-20zM884 145h20v20h-20z" fill="#72d5c6" opacity=".48"/>
+</svg>
