@@ -1,22 +1,33 @@
 # Publishing status — v0.1.2
 
-## Candidate scope
+## Published
 
-- **Source:** ToonPixel SmartFX, native C++17, bilingual parameter names and custom captions.
-- **macOS:** universal `arm64` + `x86_64` bundle, ad-hoc signed. AE 26.5x89 / Apple Silicon bilingual UI and 99/99 real output cases verified. Intel not host-tested.
-- **Windows x64:** cross-built PE `.aex`; export/import/PiPL/VERSIONINFO static checks passed. Windows AE not host-tested.
-- **Release form:** preview for Windows validation. Not a claim of certified dual-platform production compatibility.
+- Repository: [`luoboruodai/toolpixel`](https://github.com/luoboruodai/toolpixel)
+- Release: [`v0.1.2`](https://github.com/luoboruodai/toolpixel/releases/tag/v0.1.2)
+- Release tag object: `51f0a689172d3227aa833d8df96a6c5fe9577620`
+- Tagged commit: `5e31503410eead4921110d49432fb576645d8823`
+- Reviewed source commit: `4909bf2e2a12020cb6479f07beecd315aeb201ce`
+- Release form: prerelease, because Windows AE has not been host-tested.
 
-## Public / private boundary
+## Verified artifacts
 
-The public tree includes original ToonPixel source, build scripts and bilingual documentation. It excludes the Adobe SDK, HostProbe, private projects, logs, attachments, test media, backups and local build caches. Release attachments are produced from explicitly mapped files, not by archiving the whole working directory.
+| Artifact | SHA-256 |
+|---|---|
+| `ToonPixel-v0.1.2-macOS-universal.zip` | `0b9c98ef037dd781ab7de1dd371235fb5be1bcc953460d68d496329fda4d492e` |
+| `ToonPixel-v0.1.2-Windows-x64.zip` | `dc65f92ee18262a061692f806ea80baa441cd7cdb05e49af0d40556b16a4d9a4` |
 
-## Remaining release gates
+The uploaded Release files were downloaded again from GitHub and matched the reviewed local candidate byte-for-byte. The macOS installed binary used for validation was `a7523bad5cf73a4891b3c9752acd170614d112f1791ed9b307ac7a3d1b2765b7`.
 
-- Freeze and review the candidate files, actual staged blobs and archive members.
-- Rebuild and test from the public source tree.
-- Package and verify the exact binaries, offline guides, hashes and ZIP members.
-- Push through the repository's release flow, then read back the tag, commit, attachments and downloaded bytes.
-- Record any unperformed Windows AE validation as pending, not passed.
+## Validation
 
-See [release notes](docs/RELEASE_NOTES-v0.1.2.md) for installation and validation details.
+- macOS: Debug / Release / ASan each 4/4; AE 26.5x89 on Apple Silicon; bilingual round-trip and 99/99 real outputs; PiPL `0x9601` confirmed in the installed bundle.
+- Windows x64: cross-built PE `.aex`; `EffectMain`, imports, PiPL ID 16000 and VERSIONINFO static checks passed.
+- Public/private boundary: no Adobe SDK, HostProbe, private projects, logs, attachments, test media, backups or local caches in the public tree.
+
+## Not claimed
+
+- Windows AE loading or rendering.
+- Windows on Arm, Intel-host testing, other AE versions, GPU/Classic rendering, 8/16 bpc or full color management.
+- Continuous drag or host `studio_idle` verification.
+
+See [release notes](docs/RELEASE_NOTES-v0.1.2.md), [installation: macOS](docs/INSTALL-MACOS.md), and [installation: Windows](docs/INSTALL-WINDOWS.md).
