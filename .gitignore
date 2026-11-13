@@ -1,0 +1,32 @@
+# Licensed SDK and private dependencies
+SDK/
+vendor/
+.env
+.env.*
+
+# Build and package staging
+build*/
+dist/
+artifacts/installer/
+*.pkg
+
+# Private validation and handoff
+PROJECT.md
+logs/
+artifacts/
+*.aep
+*.exr
+*.psd
+*.mov
+*.mp4
+
+# Python and editor state
+__pycache__/
+*.pyc
+.venv/
+.vscode/
+.idea/
+
+# OS metadata
+.DS_Store
+._*
