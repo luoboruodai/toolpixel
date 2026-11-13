@@ -8,9 +8,9 @@ ToonPixel is a native After Effects C++ effect for cel shading, pixel-art palett
 
 ### Download attachments
 
-- `ToonPixel-v0.1.2-macOS-universal.zip` — complete `ToonPixel.plugin`, `arm64` and `x86_64`, with offline installation instructions and notices.
-- `ToonPixel-v0.1.2-Windows-x64.zip` — `ToonPixel.aex`, offline installation instructions and notices.
-- `SHA256SUMS.txt` — SHA-256 for both ZIPs. See the file itself for exact values.
+- `ToonPixel-v0.1.2-macOS-universal.zip` — complete `ToonPixel.plugin`, `arm64` and `x86_64`, with offline installation instructions and notices. SHA-256: `0b9c98ef037dd781ab7de1dd371235fb5be1bcc953460d68d496329fda4d492e`.
+- `ToonPixel-v0.1.2-Windows-x64.zip` — `ToonPixel.aex`, offline installation instructions and notices. SHA-256: `dc65f92ee18262a061692f806ea80baa441cd7cdb05e49af0d40556b16a4d9a4`.
+- `SHA256SUMS.txt` — SHA-256 for both ZIPs.
 
 These are installer attachments. GitHub's automatic Source code archives contain source, not the compiled plug-ins.
 
@@ -22,8 +22,9 @@ These are installer attachments. GitHub's automatic Source code archives contain
 
 ### Verified
 
-- macOS: Debug / Release / ASan each 4/4; AE 26.5x89 on Apple Silicon, bilingual round-trip and **99/99 real outputs**, including the Ramp color contract.
+- macOS: Debug / Release / ASan each 4/4; AE 26.5x89 on Apple Silicon, bilingual round-trip and **99/99 real outputs**, including the Ramp color contract. Installed binary SHA-256: `a7523bad5cf73a4891b3c9752acd170614d112f1791ed9b307ac7a3d1b2765b7`.
 - Windows: actual x64 PE DLL and feature-smoke executable cross-built. `EffectMain`, static dependencies, exact-case PiPL ID 16000, native `0.1.2 release 1`, and Windows `0.1.2.1` resources checked.
+- Reviewed source commit: `4909bf2e2a12020cb6479f07beecd315aeb201ce`.
 
 ### Windows preview and other limits
 
@@ -39,9 +40,9 @@ ToonPixel 是 After Effects 原生 C++ 效果，提供三渲二色带、像素�
 
 ### 下载附件
 
-- `ToonPixel-v0.1.2-macOS-universal.zip`：完整 `ToonPixel.plugin`，含 `arm64` 和 `x86_64`，附离线安装指南与声明。
-- `ToonPixel-v0.1.2-Windows-x64.zip`：`ToonPixel.aex`，附离线安装指南与声明。
-- `SHA256SUMS.txt`：两个 ZIP 的 SHA-256，具体值以该文件为准。
+- `ToonPixel-v0.1.2-macOS-universal.zip`：完整 `ToonPixel.plugin`，含 `arm64` 和 `x86_64`，附离线安装指南与声明。SHA-256：`0b9c98ef037dd781ab7de1dd371235fb5be1bcc953460d68d496329fda4d492e`。
+- `ToonPixel-v0.1.2-Windows-x64.zip`：`ToonPixel.aex`，附离线安装指南与声明。SHA-256：`dc65f92ee18262a061692f806ea80baa441cd7cdb05e49af0d40556b16a4d9a4`。
+- `SHA256SUMS.txt`：两个 ZIP 的 SHA-256。
 
 以上是实际安装附件。GitHub 自动 Source code 包是源码，不含已编译插件。
 
@@ -53,8 +54,9 @@ ToonPixel 是 After Effects 原生 C++ 效果，提供三渲二色带、像素�
 
 ### 验证范围
 
-- macOS：Debug / Release / ASan 各 4/4；Apple Silicon 的 AE 26.5x89 完成中英文往返和 **99/99 真实输出**，Ramp 色彩契约通过。
+- macOS：Debug / Release / ASan 各 4/4；Apple Silicon 的 AE 26.5x89 完成中英文往返和 **99/99 真实输出**，Ramp 色彩契约通过。安装版二进制 SHA-256：`a7523bad5cf73a4891b3c9752acd170614d112f1791ed9b307ac7a3d1b2765b7`。
 - Windows：已交叉构建真实 x64 PE DLL 和测试程序。核验 `EffectMain`、静态依赖、精确大小写的 PiPL 16000、原生 `0.1.2 release 1` 与 Windows `0.1.2.1` 资源。
+- 已审核源码提交：`4909bf2e2a12020cb6479f07beecd315aeb201ce`。
 
 ### Windows 预发布与其他限制
 
