@@ -67,7 +67,7 @@ AE_SDK_ROOT=/path/to/AfterEffectsSDK ./build_win.sh
 python3 tools/package_release.py --commit 已审核的提交
 ```
 
-详见[构建说明](docs/BUILDING.md)。安装后的插件不依赖 Python。公开源码不包含旧测试桥、私有 AE 工程、日志、参考插件或私有媒体。
+详见[构建说明](docs/BUILDING.md)和[脱敏开发概览](docs/DEVELOPMENT.md)。安装后的插件不依赖 Python。公开源码不包含旧测试桥、私有 AE 工程、日志、参考插件或私有媒体。
 
 ## 声明
 
