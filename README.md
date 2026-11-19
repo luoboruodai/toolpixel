@@ -67,7 +67,7 @@ AE_SDK_ROOT=/path/to/AfterEffectsSDK ./build_win.sh
 python3 tools/package_release.py --commit YOUR_REVIEWED_COMMIT
 ```
 
-See [build instructions](docs/BUILDING.md). No Python runtime is required by the installed effects. Public source excludes the old test bridge, private AE projects, logs, reference plug-ins and private media.
+See [build instructions](docs/BUILDING.md) and the [sanitized development overview](docs/DEVELOPMENT.md). No Python runtime is required by the installed effects. Public source excludes the old test bridge, private AE projects, logs, reference plug-ins and private media.
 
 ## Notices
 
